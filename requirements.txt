@@ -1,0 +1,15 @@
+# Computer Vision (CV_PR3): Morphology, Bitwise Ops, YuNet Face Detection, YOLOv8n Object Detection
+
+opencv-python==5.0.0.93
+opencv-contrib-python==5.0.0.93
+ultralytics>=8.3
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.2
+jupyter
+
+# Note on torch/torchvision (installed automatically as dependencies of ultralytics):
+# On a CPU-only machine, installing plain "torch" can pull in several GB of unused
+# CUDA packages. If that happens, install the lightweight CPU build first with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# then run "pip install -r requirements.txt" again.

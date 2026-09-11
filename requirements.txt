@@ -12,4 +12,4 @@ jupyter
 # On a CPU-only machine, installing plain "torch" can pull in several GB of unused
 # CUDA packages. If that happens, install the lightweight CPU build first with:
 #   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-# then run "pip install -r requirements.txt" again.
+# Then run "pip install -r requirements.txt" again.

@@ -436,31 +436,6 @@ Roughly halves your FPS versus either model alone — reserve it for when the ap
 <br>
 
 ---
-
-## 📁 Repository Structure
-
-```
-computer-vision-pr3/
-│
-├── 📓 CV_PR3.ipynb             ← Full notebook — data to final pipeline (zero errors)
-├── 🖼️ data/images/              ← 8 real test photos (place alongside the notebook)
-├── 🧠 data/models/              ← face_detection_yunet_2023mar.onnx + yolov8n.pt
-├── 📊 plots/                    ← All saved chart images used in this README
-│   ├── 01_combined_pipeline.jpg   ← Face + object boxes on one photo
-│   ├── 02_morphology_grid.png     ← 3×3 kernel shape × size comparison
-│   ├── 03_bitwise_masks.png       ← AND / OR / XOR / NOT on two masks
-│   ├── 04_face_detection.jpg      ← YuNet: 1 face found vs 0 faces found
-│   ├── 05_object_detection.jpg    ← YOLOv8n detections with confidence scores
-│   └── 06_results_table.png       ← Final technique comparison table
-├── 🌐 CV_PR3_overview.html      ← Short, plain-English project explainer (white theme)
-├── 📋 requirements.txt          ← Library versions
-└── 📖 README.md                 ← This file
-```
-
-*Note: YOLOv8n's weights auto-download on first run via `ultralytics`; the YuNet `.onnx` file must be downloaded separately from the [OpenCV Zoo](https://github.com/opencv/opencv_zoo) and placed in `data/models/`.*
-
-<br>
-
 ---
 
 ## 📦 Requirements
